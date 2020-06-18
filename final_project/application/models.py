@@ -1,5 +1,5 @@
 from application import db 
-from datetime import datetime 
+
 
 
 
@@ -32,4 +32,9 @@ class players(db.model):
     stat1_name=db.Column(db.String(50),nullable=False)
     stat2_name=db.Column(db.String(50),nullable=False)
     stat3_name=db.column(db.String(50),nullable=False)
-
+def __repr__(self):
+    return'',join([
+        'Name: ',self.first_name'\r\n',self.last_name'\r\n'
+        'Club: ' self.club'\r\n'
+        'Stat Name'self.stat1_name'\r\n',self.stat2_name'\r\n',self.stat3_name'\r\n'
+        ])

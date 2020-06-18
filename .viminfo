@@ -12,7 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1592408591,,"wq"
+|2,0,1592495727,,"wq"
+:Wq
+|2,0,1592492787,,"Wq"
+:qw
+|2,0,1592472580,,"qw"
 
 # Search String History (newest to oldest):
 
@@ -25,229 +29,351 @@
 # Registers:
 
 # File marks:
-'0  3  5  ~/.gitignore
-|4,48,3,5,1592408591,"~/.gitignore"
-'1  5  40  ~/app.py
-|4,49,5,40,1592407695,"~/app.py"
-'2  5  39  ~/app.py
-|4,50,5,39,1592407667,"~/app.py"
-'3  35  0  ~/application/models.py
-|4,51,35,0,1592407367,"~/application/models.py"
-'4  1  0  ~/create.py
-|4,52,1,0,1592402959,"~/create.py"
-'5  2  20  ~/application/__init__.py
-|4,53,2,20,1592402874,"~/application/__init__.py"
-'6  6  0  ~/app.py
-|4,54,6,0,1592402317,"~/app.py"
-'7  6  0  ~/app.py
-|4,55,6,0,1592402317,"~/app.py"
+'0  1  31  ~/final_project/application/routes.py
+|4,48,1,31,1592495727,"~/final_project/application/routes.py"
+'1  40  9  ~/final_project/application/models.py
+|4,49,40,9,1592494955,"~/final_project/application/models.py"
+'2  1  0  ~/final_project/application/models
+|4,50,1,0,1592494937,"~/final_project/application/models"
+'3  22  11  ~/final_project/application/templates/home.html
+|4,51,22,11,1592494801,"~/final_project/application/templates/home.html"
+'4  3  50  ~/final_project/application/forms.py
+|4,52,3,50,1592494107,"~/final_project/application/forms.py"
+'5  10  8  ~/final_project/application/templates/home.html
+|4,53,10,8,1592494052,"~/final_project/application/templates/home.html"
+'6  10  8  ~/final_project/application/templates/home.html
+|4,54,10,8,1592494052,"~/final_project/application/templates/home.html"
+'7  1  31  ~/final_project/application/routes.py
+|4,55,1,31,1592493273,"~/final_project/application/routes.py"
+'8  1  0  ~/final_project/application/__init__.py
+|4,56,1,0,1592492790,"~/final_project/application/__init__.py"
+'9  62  58  ~/final_project/application/routes.py
+|4,57,62,58,1592477037,"~/final_project/application/routes.py"
 
 # Jumplist (newest first):
--'  3  5  ~/.gitignore
-|4,39,3,5,1592408591,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1592408560,"~/.gitignore"
--'  5  40  ~/app.py
-|4,39,5,40,1592407695,"~/app.py"
--'  5  40  ~/app.py
-|4,39,5,40,1592407695,"~/app.py"
--'  5  39  ~/app.py
-|4,39,5,39,1592407667,"~/app.py"
--'  5  39  ~/app.py
-|4,39,5,39,1592407667,"~/app.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  35  0  ~/application/models.py
-|4,39,35,0,1592407367,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/application/models.py
-|4,39,1,0,1592403258,"~/application/models.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  1  0  ~/create.py
-|4,39,1,0,1592402959,"~/create.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  2  20  ~/application/__init__.py
-|4,39,2,20,1592402874,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
--'  1  0  ~/application/__init__.py
-|4,39,1,0,1592402360,"~/application/__init__.py"
+-'  1  31  ~/final_project/application/routes.py
+|4,39,1,31,1592495727,"~/final_project/application/routes.py"
+-'  40  9  ~/final_project/application/models.py
+|4,39,40,9,1592494955,"~/final_project/application/models.py"
+-'  40  9  ~/final_project/application/models.py
+|4,39,40,9,1592494955,"~/final_project/application/models.py"
+-'  1  0  ~/final_project/application/models
+|4,39,1,0,1592494937,"~/final_project/application/models"
+-'  1  0  ~/final_project/application/models
+|4,39,1,0,1592494937,"~/final_project/application/models"
+-'  1  0  ~/final_project/application/models
+|4,39,1,0,1592494937,"~/final_project/application/models"
+-'  1  0  ~/final_project/application/models
+|4,39,1,0,1592494937,"~/final_project/application/models"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  22  11  ~/final_project/application/templates/home.html
+|4,39,22,11,1592494801,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494114,"~/final_project/application/templates/home.html"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  3  50  ~/final_project/application/forms.py
+|4,39,3,50,1592494107,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  69  63  ~/final_project/application/forms.py
+|4,39,69,63,1592494084,"~/final_project/application/forms.py"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  10  8  ~/final_project/application/templates/home.html
+|4,39,10,8,1592494052,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  0  ~/final_project/application/templates/home.html
+|4,39,1,0,1592493485,"~/final_project/application/templates/home.html"
+-'  1  31  ~/final_project/application/routes.py
+|4,39,1,31,1592493273,"~/final_project/application/routes.py"
+-'  1  31  ~/final_project/application/routes.py
+|4,39,1,31,1592493273,"~/final_project/application/routes.py"
+-'  1  31  ~/final_project/application/routes.py
+|4,39,1,31,1592493273,"~/final_project/application/routes.py"
+-'  1  31  ~/final_project/application/routes.py
+|4,39,1,31,1592493273,"~/final_project/application/routes.py"
+-'  1  31  ~/final_project/application/routes.py
+|4,39,1,31,1592493273,"~/final_project/application/routes.py"
 
 # History of marks within files (newest to oldest):
 
+> ~/final_project/application/routes.py
+	*	1592495726	0
+	"	1	31
+	^	1	32
+	.	12	91
+	+	21	19
+	+	63	19
+	+	62	63
+	+	43	59
+	+	12	64
+	+	10	34
+	+	12	0
+	+	11	38
+	+	12	91
+
+> ~/final_project/application/models.py
+	*	1592494954	0
+	"	40	9
+	^	40	10
+	.	40	9
+	+	2	0
+	+	36	0
+	+	35	0
+	+	37	59
+	+	40	9
+
+> ~/final_project/application/models
+	*	1592494936	0
+	"	1	0
+
+> ~/final_project/application/templates/home.html
+	*	1592494800	0
+	"	22	11
+	^	22	12
+	.	22	9
+	+	10	50
+	+	13	0
+	+	7	0
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	12	1
+	+	14	13
+	+	15	26
+	+	6	23
+	+	15	31
+	+	18	55
+	+	20	23
+	+	18	18
+	+	20	54
+	+	14	0
+	+	22	9
+
+> ~/final_project/application/forms.py
+	*	1592494105	0
+	"	3	50
+	^	69	64
+	.	69	63
+	+	7	42
+	+	73	0
+	+	28	11
+	+	29	15
+	+	30	37
+	+	45	0
+	+	69	0
+	+	39	8
+	+	41	12
+	+	40	12
+	+	30	12
+	+	29	12
+	+	28	8
+	+	19	12
+	+	18	12
+	+	17	8
+	+	8	8
+	+	10	12
+	+	9	12
+	+	61	35
+	+	60	25
+	+	61	33
+	+	68	0
+	+	73	34
+	+	85	0
+	+	73	30
+	+	76	19
+	+	75	7
+	+	76	27
+	+	84	0
+	+	74	25
+	+	113	76
+	+	72	0
+	+	69	63
+
+> ~/final_project/application/__init__.py
+	*	1592492787	0
+	"	1	0
+
+> ~/final_project/application/templates/layout.html
+	*	1592475232	0
+	"	17	6
+	^	17	7
+	.	18	0
+	+	8	39
+	+	9	45
+	+	18	0
+
+> ~/final_project/models.py
+	*	1592472671	0
+	"	1	0
+
+> ~/final_project/forms.py
+	*	1592472567	0
+	"	4	30
+	^	4	31
+	.	4	30
+	+	4	30
+
 > ~/.gitignore
-	*	1592408589	0
+	*	1592408633	0
 	"	3	5
 	^	3	6
 	.	3	5

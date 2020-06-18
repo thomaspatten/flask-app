@@ -1,0 +1,22 @@
+{%extends 'layout.html' %}
+
+{% block body_content}
+
+<p>Home Page</p>
+{% for player in player %}
+	<div>
+		<h3> {{player.first_name}}</h3> <h3> {{player.last_name}}</h3>
+		<p><b> - Club:</b>{{player.club}}</p>
+		<p><b> - Stat 1 Name</b>{{player.stat1_name}}</p>
+		<p><b> - Stat 2 Name</b>{{player.stat2_name}}</p>
+		<p><b> - Stat 3 Name</b>{{player.stat3_name}}</p>
+	</div>
+{% endfor %}
+{% for position in position % }
+	<div>
+		<h3> {{position.club}}</h3>
+		<p><b> - Stat 1 Value</b>{{position.stat1_value}}</p>
+		<p><b> - Stat 2 Value</b>{{position.stat2_value}}</p>
+		<p><b> - Stat 3 Value</b>{{position.stat3_value}}</p>
+	</div>
+{% endfor %>
