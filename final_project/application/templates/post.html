@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+{%block body_content %}
+<div class="form">
+	<form method="POST" action="">
+		{{form.hidden_tag()}}
+		<div class="form-group">
+			{{form.first_name.label}}
+			{{form.first_name}}
+			{%if form.first_name.errors %}
+			<div class="error">
+				{% for error in form.first_name.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		<br>
+		<div class="form-group">
+			{{form.last_name.label}}
+			{{form.last_name}}
+			{%if form.last_name.errors %}
+			<div class="error">
+				{%for error in form.last_name.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		<br>
+		<div class="form-group">
+			{{form.club.label}}
+			{{form.club}}
+			{%if form.club.errors %}
+			<div class="error">
+				{%for error in form.club.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		<br>
+		<div class="form-group">
+			{{form.stat1_name.label}}
+			{{form.stat1_name}}
+			{%if form.stat1_name.errors%}
+			<div class="error">
+				{%for error in form.stat1_name.errors%}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		<br>
+		<div class="form-group">
+			{{form.stat2_name.label}}
+			{{form.stat2_name}}
+			{%if form.stat2_name.errors%}
+			<div class="error">
+				{%for error in form.stat2_name.errors%}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		<br>
+		<div class="form-group">
+			{{form.stat3_name.label}}
+			{{form.stat3_name}}
+			{%if form.stat3_name.errors%}
+			<div class="error">
+				{%for error in form.stat3_name.errors%}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+		<br>
+		<div class="form-group">
+			{{form.submit}}
+		</div>
+	</form>
+
+</div>
+{% endblock body_content %}
+
+
+
+
+
+

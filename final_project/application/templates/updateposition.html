@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{%block body_content %}
+
+<div class="form">
+        <form method="POST" action="">
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                        {{form.position.label}}
+                        {{form.position}}
+                        {%if error in form.position.errors%}
+                        <div class="error">
+                                {%for error in form.position.errors%}
+                                        <span> {{error }}</span>
+                                {% endfor %}
+                        </div>
+                        {% endif %}
+                </div>
+                <br>
+                <div class="form-group">
+                        {{form.stat1_value.label}}
+                        {{form.stat1_value}}
+                        {%if error in form.stat1_value.errors%}
+                        <div class="error">
+                                {%for error in form.stat1_value.errors%}
+                                        <span>{{ errors }}</span>
+                                {% endfor %}
+                        </div>
+                        {% endif %}
+                </div>
+                <br>
+                <div class="form-group">
+                        {{form.stat2_value.label}}
+                        {{form.stat2_value}}
+                        {%if error in form.stat2_value.errors%}
+                        <div class="error">
+                                {%for error in form.stat2_value.errors%}
+                                        <span>{{ errors }}</span>
+                                {% endfor %}
+                        </div>
+                        {% endif %}
+                </div>
+                <br>
+                <div class="form-group">
+                        {{form.stat3_value.label}}
+                        {{form.stat_value}}
+                        {%if error in form.stat3_value.errors%}
+                        <div class="error">
+                                {%for error in form.stat3_value.errors%}
+                                        <span>{{ error }}</span>
+                                {% endfor %}
+                        </div>
+                        {% endif %}
+                </div>
+        </form>
+</div>
+{% endblock body_content %}

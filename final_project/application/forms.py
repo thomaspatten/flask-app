@@ -1,9 +1,9 @@
 from flask_wtf import FlaskForm 
 from wtforms import StringField, SubmitField 
 from wtforms.validators import DataRequired, Length
-from application.models import  players, positions
+from application.models import  player, position
 
-class playersForm(FlaskForm):
+class playerForm(FlaskForm):
     first_name = StringField('First Name',
          validators = [
             DataRequired(),
@@ -16,7 +16,7 @@ class playersForm(FlaskForm):
     last_name = StringField('Last Name',
         validators = [
             DataRequired(),
-            Length(min=1, max=30
+            Length(min=1, max=30)
             
             ]
 
@@ -37,7 +37,7 @@ class playersForm(FlaskForm):
 
     stat1_name = StringField('Stat 1 Name',
         validators = [
-            DataRequried(),
+            DataRequired(),
             Length(min=1, max =30)
 
                 ]
@@ -48,7 +48,7 @@ class playersForm(FlaskForm):
     stat2_name= StringField('Stat 2 Name',
         validators = [
             DataRequired(),
-            length(min=1, max=30)
+            Length(min=1, max=30)
 
                 ]
 
@@ -57,7 +57,7 @@ class playersForm(FlaskForm):
 
     stat3_name =StringField('Stat 3 Name',
         validators = [
-            DataRequied(),
+            DataRequired(),
             Length(min=1, max=30)
 
                 ]
@@ -70,10 +70,10 @@ class playersForm(FlaskForm):
 
 
 
-class positionForm(Flaskform):
-    position = StringField('Position',
+class positionForm(FlaskForm):
+    pos = StringField('Position',
         validators = [
-            DataRequried(),
+            DataRequired(),
             Length(min=1, max=10)
 
                 ]
@@ -95,7 +95,7 @@ class positionForm(Flaskform):
 
     stat2_value = StringField('Stat 2 Value',
         validators = [
-            DataRequried(),
+            DataRequired(),
             Length(min=1, max=10)
 
                 ]
@@ -108,6 +108,52 @@ class positionForm(Flaskform):
             DataRequired(),
             Length(min=1, max=30)
 
+                ]
+    )
 
+    submit= SubmitField('Add The Position And the Stat Values To The Player')
+
+
+
+class UpdatepositionForm(FlaskForm):
+    pos = StringField('Position',
+        validators = [
+            DataRequired(),
+            Length(min=1, max=10)
+
+                ]
+
+    )
+
+
+
+
+    stat1_value = StringField('Stat 1 Value',
+        validators = [
+            DataRequired(),
+            Length(min=1,max=10)
+
+                ]
+
+    )
+
+
+    stat2_value = StringField('Stat 2 Value',
+        validators = [
+            DataRequired(),
+            Length(min=1, max=10)
+
+                ]
+
+    )
+
+
+    stat3_value = StringField('Stat 3 value',
+        validators = [
+            DataRequired(),
+            Length(min=1, max=30)
+
+                ]
+    )
 
     submit= SubmitField('Add The Position And the Stat Values To The Player')

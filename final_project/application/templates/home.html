@@ -1,6 +1,6 @@
 {%extends 'layout.html' %}
 
-{% block body_content}
+{% block body_content%}
 
 <p>Home Page</p>
 {% for player in player %}
@@ -12,11 +12,13 @@
 		<p><b> - Stat 3 Name</b>{{player.stat3_name}}</p>
 	</div>
 {% endfor %}
-{% for position in position % }
+{% for position in position %}
 	<div>
-		<h3> {{position.club}}</h3>
+		<h3> {{position.pos}}</h3>
 		<p><b> - Stat 1 Value</b>{{position.stat1_value}}</p>
 		<p><b> - Stat 2 Value</b>{{position.stat2_value}}</p>
 		<p><b> - Stat 3 Value</b>{{position.stat3_value}}</p>
 	</div>
-{% endfor %>
+	<a href="{{url_for('update_position',id=position.id)}}">Update</a>
+{% endfor %}
+{% endblock %}
